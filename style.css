@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?wv317z');
+    src:    url('fonts/icomoon.eot?wv317z#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?wv317z') format('truetype'),
+        url('fonts/icomoon.woff?wv317z') format('woff'),
+        url('fonts/icomoon.svg?wv317z#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+       /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: Walkway;
+    src: url(fonts/Walkway_UltraBold.ttf);
+
+}
+@font-face {
+    font-family: Walkway-bold;
+    src: url(fonts/Walkway_Black.ttf);
+
+}
+@font-face {
+    font-family: Walkway-rounded;
+    src: url(fonts/Walkway_rounded.ttf);
+
+}
+body
+{
+	padding:0;
+	margin:0;
+	background-color: #E5E8E8;
+}
+.row
+{
+	margin:0px;
+}
+.background
+{
+	width:100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index:-2;
+}
+.static-bar
+{
+	position: fixed;
+	width:100%;
+	height:50px;
+	background-color:#01050A;
+	padding: 0;
+	z-index:20;
+}
+.static-bar-logo
+{
+	height:20px;
+	margin-top:15px;
+	margin-left:40px;
+	float: left;
+	
+}
+.search-bar
+{
+	height:25px;
+	max-width: 500px;	
+	margin-top:12.5px;
+	margin-left: 88px;	
+	background-color: white;
+	float:left;
+	border-radius: 4px;
+}
+input.search
+{
+	border-width:0px;
+	margin-top:4.5px;
+	height:16px;
+	width:410px;
+	margin-left: 10px;
+	font-family: Walkway-rounded,calibri;
+	font-size: 16px;
+	
+}
+input:focus{
+    outline: none;
+}
+.glyphicon-search{
+    
+    font-size:18px;
+    color:#01050A;    
+    
+    float:right;
+    padding:3px 5px;
+	
+}
+.glyphicon-search:hover
+{
+	color:#25506B; 
+}
+.name
+{
+	padding:20px;
+	font-family: Calibri;
+	color: white;
+	font-size: 15px;
+	float:right;
+}
+.static-bar .fa-cloud-upload
+{
+	font-size:20px;
+    color:white;    
+    float:right;
+    padding:23px 5px;
+	margin-right: 20px;
+	height:50px;
+}
+.fa-cloud-upload:hover
+{
+	color:#25506B; 
+}
+.tabs
+{
+	position:fixed;
+	top:50px;
+	bottom:0px;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.5);
+	min-width:146px;
+}
+.tabs ul
+{
+	margin-top: 30px;
+	
+}
+.tabs ul li
+{
+min-width: 120px;	
+}
+
+.tabs ul li a
+{
+	font-family: calibri;
+	font-size: 14px;	
+	color:white;
+	min-width: 120px;
+}
+.tabs ul li a:hover
+{
+	color:black;
+}
+.tabs ul .active
+{
+	background-color: #25506B;
+}
+.tabs ul .fa
+{
+	font-size: 20px;
+	margin-right: 20px;
+	color:gray;
+}
+.tabs ul .active .fa
+{
+	color:white;
+}
+.below-search
+{
+	height:70px;
+	background-color: transparent;
+}
+.channels .col-sm-2
+{
+	background-color: transparent;	
+	height: 500px;
+	margin:0;
+}
+.channels .col-sm-4
+{
+	background-color: transparent;
+	margin-left: 70px;
+    margin-top: 18px;
+}
+.channel-name
+{
+	color:white;
+	font-family: calibri;
+	font-size:16px;
+	padding:7px;
+	border-bottom:solid #B2B3B3 1px;
+
+}
+.channel-name a
+{
+	text-decoration: none;
+	color:white;
+}
+.channel-name a:hover
+{
+	color: #2A5875;
+}
+.genre-icon
+{
+	height:16px;
+	margin-left: 10px;
+	position:relative;
+	bottom:2px;
+}
+
+.thumbnails .col-sm-1
+{
+	margin-top:0px;
+	padding:0px;
+}
+.channel-content
+{
+	margin-top:5px;
+}
+.channel-content .col-sm-1{
+	padding:0px;
+	margin:0px;
+}
+.channel-content .col-sm-12{
+	padding:0px;
+	margin:0px;
+}
+.channel-content .col-sm-4{
+	padding:4px 4px;
+	margin:0px;
+}
+.channel-content .col-sm-6{
+	padding:4px;
+	margin:0px;
+}
+.channel-content .col-sm-8
+{
+	padding:0px;
+	margin:0px;
+}
+.channel-content img
+{
+	width:100%;
+}
+
+
+.thumb-title
+{
+	display: none;
+	background-color:rgba(0,0,0,0.8);
+	position:absolute;
+	width:100%;
+	height:100%;	
+	top:0;
+	right:0;
+	z-index:10;
+}
+.thumb-title .fa{
+
+	font-size: 25px;
+	color:white;
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
+.thumb-title span
+{
+	font-size:0.875em;
+	color:white;
+	padding-left: 5px;
+	font-family: calibri;	
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.options
+{
+	width:100%;
+	height:27px;
+	background-color:black;
+	margin:0;
+}
+.options .col-sm-4
+{
+	margin:0;
+	padding:6px 0;
+	text-align: center;
+}
+.options i
+{
+	color:white;
+	font-size: 16px;
+	
+}
+.options i:hover
+{
+	color:#2A5875;
+	cursor: pointer;
+}
+.highlighted
+{
+	color:#2A5875;
+}
